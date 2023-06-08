@@ -34,9 +34,12 @@ commands will create and activate the virtual environment:
 ```
 
 ## Running Tests
+
+*colorama python package is also needed
+
 ```
 % git clone git@github.com:cornell-brg/pymtl3-mem.git
 % cd pymtl3-mem
 % mkdir build && cd build
-% pytest ../BlockingCache/test/BlockingCacheRTL_test.py -v
+% pytest ../blocking_cache/test/BlockingCacheRTL_test.py -v
 ```

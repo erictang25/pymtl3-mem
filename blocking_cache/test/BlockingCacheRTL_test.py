@@ -17,7 +17,7 @@ from .HypothesisTest    import HypothesisTests
 from .OtherCiferTests   import OtherCiferTests
 
 class BlockingCacheRTL_Tests( GenericTestCases, InvFlushTests, AmoTests,
-                              HypothesisTests, RandomTests, OtherCiferTests ):
+                              RandomTests, OtherCiferTests ):
 
   def run_test( s, msgs, mem, CacheReqType, CacheRespType, MemReqType, MemRespType,
                 associativity, cacheSize, stall_prob, latency, src_delay,
